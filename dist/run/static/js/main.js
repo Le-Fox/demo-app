@@ -21109,16 +21109,16 @@ const { default: any , ...rest } = mod;
 const react = mod.default;
 function App() {
     return react.createElement(react.Fragment, null, react.createElement("link", {
-        rel: 'stylesheet',
-        href: './static/css/App.css'
+        rel: "stylesheet",
+        href: "./static/css/App.css"
     }), react.createElement("div", {
         className: "App"
     }, react.createElement("header", {
         className: "App-header"
     }, react.createElement("img", {
-        src: './static/images/logo.svg',
+        src: "./static/images/logo.svg",
         className: "App-logo",
         alt: "logo"
     }), react.createElement("p", null, "Hi Baby"))));
 }
-mod1.render(react.createElement(rest.StrictMode, null, react.createElement(App, null)), document.getElementById('root'));
+mod1.render(react.createElement(rest.StrictMode, null, react.createElement(App, null)), document.getElementById("root"));
